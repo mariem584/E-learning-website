@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.investment{
+ display: flex;
+ width: 100%;
+}
+
+.text{
+    /* margin-left: 60px; */
+    padding-left: 100px;
+    /* width: 100%; */
+}
+
+.text h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 45px;
+    /* font-style: italic; */
+}
+.text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.text span{
+    color: #0056d2;
+}
+
+.btnn{
+    display: flex;
+    width: 70%;
+}
+.bluBttn{
+    background: #0056d2;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.video {
+    /* background: #0056d2; */
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 150px;
+
+}
+.video h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    margin-left: 15px;
+  
+}
+.vidButton{
+ /* -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1); */
+/* -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1); */
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.4); 
+border-radius: 50%;
+padding: 12px;
+color: #0056d2;
+
+}
+.avatar img{
+    width: 45px;
+    height: 45px;
+}
+
+.avatar{
+    display: flex;
+    margin-top: -30px;
+}
+.avatar h2{
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+margin-left: 5px;
+}
+
+.imgfirstSection{
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.enchance{
+    display: flex;
+    /* width: 100%; */
+}
+
+.enchance .text h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-size: 35px;
+    line-height: 46px;
+
+}
+
+.enchance .text{
+    margin-left: 90px;
+}
+
+.enchance{
+    margin-left: 70px;
+}
+
+.enchance .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.enchance ul{
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    
+}
+
+.enchance li{
+    margin-right: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 25px;
+    /* margin-top: 20px; */
+}
+.ulFirst li{
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+.ulSec li{
+    display: flex;
+    
+
+}
+.check{
+    background-color: #0056d2;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+.topCatagory{
+background-color: #f3f9fa;
+text-align: center;
+padding-top: 30px;
+/* padding-bottom: 20px; */
+
+}
+
+.topCatagory h2{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.flaction{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.caption img{
+    width: 150px;
+     border-radius: 50%;
+
+}
+.caption .flac1{
+    border: #fb1210 2px dashed;
+    padding: 20px;
+
+}
+.caption .flac2{
+    border: #fa12ff 2px dashed;
+    padding: 20px;
+
+}.caption .flac3{
+    border: #096af7 2px dashed;
+    padding: 20px;
+
+}.caption .flac4{
+    border: #9112ff 2px dashed;
+    padding: 20px;
+
+}
+
+
+.caption{
+    margin-left: 25px;
+    
+}
+.caption h2{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.mentors{
+    text-align: center;
+    
+
+    
+}
+
+.mentors h2{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-top: 70px;
+}
+
+.mentors p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    /* font-size: 16px; */
+}
+
+.captionMentors img{
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #0055d1;
+    margin-left: 35px;
+}
+.mentorsPerson{
+    display: flex;
+    padding-left: 360px;
+    /* margin-right: 55px; */
+}
+.captionMentors h3{
+    font-size: 18px;
+    margin-left: 35px;
+}
+.captionMentors h4{
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: 400;
+    margin-left: 35px;
+
+}

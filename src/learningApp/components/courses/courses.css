@@ -1,0 +1,96 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.card p {
+  border-bottom: 2px solid #dedfdf;
+  padding-bottom: 15px;
+  margin-top: -5px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.cardh4Span {
+  display: flex;
+  justify-content: space-between;
+}
+.cardh4Span h4 {
+  margin-top: -2px;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #eaf3f9;
+  padding: 3px;
+}
+
+.cardh4Span span {
+  color: #0056d2;
+  font-weight: 500;
+}
+
+.image-container {
+  position: relative;
+}
+.enroll {
+  position: absolute;
+  top: -18px;
+  left: 150px;
+}
+.lineCard {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -5px;
+}
+
+.lineCard .icon {
+  width: 20px;
+}
+
+.lineCard span {
+  margin-top: 5px;
+  margin-right: 25px;
+  font-weight: 500;
+}
+.enroll {
+  background-color: #004dcf;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+.category-buttons{
+    margin-left: 100px;
+}
+
+.category-buttons button{
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    margin-right: 20px;
+    margin-left: 55px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    /* margin-top: 200px; */
+
+}
+
+/* .category-buttons{
+    border-bottom: 2px solid #dedfdf;
+    margin-top: -55px;
+} */
+
+.wholeCard{
+    margin-left: 100px;
+}
+.carddd h1{
+    margin-left: 158px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}

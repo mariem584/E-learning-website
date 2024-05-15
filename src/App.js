@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./learningApp/pages/Home/Home";
+import Courses from "./learningApp/pages/Courses/Courses";
 
-function App() {
+import "./App.css";
+import Blog from "./learningApp/pages/Blog/Blog";
+// import UseState from "./Reacthooks/UseState";
+import AboutUs from './learningApp/pages/AboutUs/AboutUs'
+import Cards from "./components/Cards";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Blog/>       */}
+      {/* <Courses/> */}
+
+      {/* <UseState/> */}
+      {/* <Home/> */}
+      {/* <AboutUs/> */}
+      <Cards game={'first title'} decs={'desc 1'}/>
+      <Cards game={'sec title'} decs={'desc 2'}/>
+      
     </div>
   );
-}
+};
 
 export default App;

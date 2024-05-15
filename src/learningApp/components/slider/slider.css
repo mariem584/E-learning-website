@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 200vh; */
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+    
+
+  }
+  
+  .bothDivs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .textTestimoials{
+    width: 70%;
+    line-height: 30px;
+   
+
+
+  }
+
+  .textTestimoials h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  .textTestimoials img{
+    width: 55px;
+  }
+
+  .textTestimoials h2{
+    font-size: 35px;
+    color:#170f49;
+    font-weight: 400;
+    margin-left: 210px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  h1{
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  
